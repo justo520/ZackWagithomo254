@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directions</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="directions.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">Zack Wagithomo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Background Section -->
+    <div class="bg-image">
+      <div class="content text-center">
+          <h1>Chief Bus Inspector</h1>
+          <p>Ready for work. Contact me.</p>
+          <a href="services.html" class="btn btn-warning btn-lg my-2">Get Started</a>
+      </div>
+  </div>    
+    <div class="container text-center text-primary">
+        <h2>Directions to Zack Wagithomo's Workplace</h2>
+        <p>Located in Nairobi, Kenya on Maragua Ln</p>
+        <div id="map"></div>
+    </div>
+    <!-- Footer -->
+<footer class="text-center py-3 bg-dark text-light">
+    <p class="mb-0">© 2025 Zack Wagithomo | Super Metro Public Inspector</p>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="directions.js">
+    </script>
+</body>
+</html>
